@@ -47,3 +47,28 @@ solution
 
     return b;
   });
+
+solution
+  .owner('eylmz')
+  .method('Reverse For Loop')
+  .fn(function factorial(n): number {
+    let b = 1;
+    for (let i = n; i >= 2; i--) {
+      b *= i;
+    }
+
+    return b;
+  });
+
+solution
+  .owner('ilker0')
+  .method('While Loop')
+  .fn(function factorial(n): number {
+    let b = 1;
+    while (n > 0) {
+      b *= n;
+      n -= 1;
+    }
+
+    return b;
+  });
